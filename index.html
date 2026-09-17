@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Las Siete — SOPs Operativos</title>
+  <style>
+    :root{--wine:#4b174d;--purple:#6d2c70;--cream:#fff7e5;--paper:#fffdf8;--ink:#251f24;--muted:#685d65;--gold:#c99b48;--line:#e7dcc8}*{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#f6eee0,#eee6d8);font:16px/1.5 Arial,Helvetica,sans-serif;color:var(--ink)}main{max-width:1050px;margin:auto;padding:24px 18px 50px}.hero{background:radial-gradient(circle at top right,#815084 0,#4b174d 46%,#321033 100%);color:#fff;border-radius:20px;padding:42px 34px;box-shadow:0 12px 35px #32103335}.mark{font-size:.9rem;letter-spacing:.24em;color:#f5d898;font-weight:bold}.hero h1{font-size:clamp(2.1rem,6vw,4.4rem);margin:8px 0 0;line-height:1}.hero p{max-width:650px;font-size:1.08rem;margin:18px 0 0;color:#fcf5e8}.badge{display:inline-block;margin-top:22px;border:1px solid #f6d88880;border-radius:99px;padding:7px 12px;color:#f6d888;font-size:.86rem}.intro{margin:22px 0;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:21px}.intro h2{margin:0 0 8px;color:var(--wine)}.intro p{margin:0;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px}.card{display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:23px;min-height:250px;box-shadow:0 5px 15px #392b1d10}.card .type{color:var(--purple);font-size:.79rem;letter-spacing:.09em;font-weight:bold;text-transform:uppercase}.card h3{font-size:1.33rem;margin:9px 0}.card p{color:var(--muted);margin:0}.card a{display:inline-block;margin-top:auto;padding-top:20px;color:var(--wine);font-weight:bold;text-decoration:none}.card a:hover{text-decoration:underline}.card.empty{border-style:dashed;background:#fffcf7}.card.empty h3{color:#86776a}footer{text-align:center;color:#756b72;font-size:.87rem;margin-top:28px}@media(max-width:600px){.hero{padding:30px 23px}}
+  </style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <div class="mark">LAS SIETE · VII</div>
+    <h1>Procedimientos operativos</h1>
+    <p>Biblioteca de SOPs para una operación cervecera consistente, segura y trazable: elaboración, limpieza, servicio, control y mantenimiento.</p>
+    <span class="badge">Fortis Fortuna Adiuvat</span>
+  </header>
+
+  <section class="intro">
+    <h2>Cómo usar esta biblioteca</h2>
+    <p>Selecciona un procedimiento, configura los parámetros necesarios y completa los puntos de control en orden. Cada SOP está diseñado para reducir errores operativos y dejar registro de cada ciclo.</p>
+  </section>
+
+  <section class="grid" aria-label="Procedimientos disponibles">
+    <article class="card">
+      <div class="type">Limpieza y sanitización · SOP-KG-001</div>
+      <h3>Keg tipo G / Sankey</h3>
+      <p>Procedimiento dinámico para limpieza con percarbonato de sodio y sanitización con SANIT-10 PLUS. Ajusta cantidades según la capacidad y condición del keg.</p>
+      <a href="sops/limpieza-sanitizacion-keg-tipo-g.html">Abrir SOP de keg →</a>
+    </article>
+
+    <article class="card empty">
+      <div class="type">Próximamente</div>
+      <h3>Limpieza de líneas y grifos</h3>
+      <p>Procedimiento de limpieza, enjuague, sanitización y verificación de líneas de servicio.</p>
+    </article>
+
+    <article class="card empty">
+      <div class="type">Próximamente</div>
+      <h3>Envasado y carbonatación</h3>
+      <p>Control de llenado, purga de CO₂, sellado, maduración y rotulado de kegs.</p>
+    </article>
+
+    <article class="card empty">
+      <div class="type">Próximamente</div>
+      <h3>Elaboración y control de lote</h3>
+      <p>Registro de molienda, maceración, hervor, enfriado, fermentación y control de calidad.</p>
+    </article>
+  </section>
+  <footer>Las Siete · Biblioteca interna de procedimientos operativos · Versión inicial</footer>
+</main>
+</body>
+</html>
